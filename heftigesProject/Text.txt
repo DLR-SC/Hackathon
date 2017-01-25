@@ -1,0 +1,10 @@
+import pandas as pd
+df = pd.read_csv('D:/Hackathon/travistorrent_11_1_2017.csv/travistorrent_11_1_2017.csv', sep=',')
+
+df.head(10)
+
+print("beginn")
+lang = df['gh_lang']
+summe = df.sum()
+print(summe)
+summe.head()
